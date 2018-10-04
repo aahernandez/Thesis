@@ -1,0 +1,17 @@
+<Features>
+	<Feature name="Carrot">
+		<Aspects isSolid="false" isDestroyable="true" isOpenable="false" damageDealt="0" health="1"/>
+		<Image path="Data/Images/Carrot.png"/>
+		<GlyphColor color="0, 0, 0"/>
+	</Feature>
+	<Feature name="Corpse">
+		<Aspects isSolid="false" isDestroyable="true" isOpenable="false" damageDealt="0" health="5"/>
+		<Image path="Data/Images/White.png"/>
+		<GlyphColor color="255, 165, 0"/>
+	</Feature>
+	<Feature name="Bush">
+		<Aspects isSolid="false" isDestroyable="true" isOpenable="false" damageDealt="0" health="1"/>
+		<Glyph glyph='*'/>
+		<GlyphColor color="212, 103, 25"/>
+	</Feature>
+</Features>

@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="AffectiveArchitecture">
+      <UniqueIdentifier>{ed569bef-5140-435f-b2aa-de1da7dc5188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Behaviors">
+      <UniqueIdentifier>{6c657999-e329-408a-9ece-b69fea4e2c83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2D.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\Action.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\Event.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\Emotion.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\EmotionModel.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\Personality.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\SocialRole.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="AffectiveArchitecture\SocialRelations.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLoader.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Feature.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TileDefinition.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Behavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="PathGenerator.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterBuilder.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Stats.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="FeatureBuilder.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBuilder.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGenerator.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorCellularAutomata.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorFromFile.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorPerlinNoise.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGeneratorRoomsAndCorridors.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="WanderBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="EmotionStatsScreen.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="HideBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowOffBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="FleeBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="SulkBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="MateBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="RecuperateBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="DijkstraMapGenerator.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="FreakOutBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="DaydreamBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="CryBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="SmileBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="TantrumBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="SighBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="GloatBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="ImitateBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="BlameBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+    <ClCompile Include="EatBehavior.cpp">
+      <Filter>Behaviors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="App.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameConfig.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2D.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\Action.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\Event.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\EmotionModel.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\Emotion.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\Personality.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\SocialRole.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\SocialRelation.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLoader.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Feature.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TileDefinition.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDrivenDefinition.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Behavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="PathGenerator.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterBuilder.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDrivenBuilder.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="Stats.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="FeatureBuilder.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBuilder.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGenerator.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorCellularAutomata.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorFromFile.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorPerlinNoise.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGeneratorRoomsAndCorridors.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="WanderBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="EmotionStatsScreen.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="HideBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowOffBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="FleeBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="SulkBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="MateBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="RecuperateBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="DijkstraMapGenerator.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="FreakOutBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviorCommon.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="DaydreamBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="CryBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="SmileBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="TantrumBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="SighBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="GloatBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="ImitateBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="BlameBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+    <ClInclude Include="AffectiveArchitecture\AffectiveCommon.hpp">
+      <Filter>AffectiveArchitecture</Filter>
+    </ClInclude>
+    <ClInclude Include="EatBehavior.hpp">
+      <Filter>Behaviors</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

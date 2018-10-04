@@ -1,0 +1,47 @@
+<Emotions>
+	<Emotion name="Joy" oppositeEmotionName="Distress">
+		<Rule hasAgent="false" isPositiveEffect="true" isPositiveAttitude="true" dc="1,1"/>
+		<Rule hasAgent="false" isPositiveEffect="false" isPositiveAttitude="false" dc="1,1"/>
+	</Emotion>
+
+	<Emotion name="Hope" oppositeEmotionName="Fear">
+		<Rule hasAgent="false" isPositiveEffect="true" isPositiveAttitude="true" dc="0,1"/>
+		<Rule hasAgent="false" isPositiveEffect="false" isPositiveAttitude="false" dc="0,1"/>
+	</Emotion>
+
+	<Emotion name="Disappointment" oppositeEmotionName="Relief">
+		<Rule hasAgent="false" isPositiveEffect="true" isPositiveAttitude="true" dc="0,0"/>
+		<Rule hasAgent="false" isPositiveEffect="false" isPositiveAttitude="false" dc="0,0"/>
+	</Emotion>
+
+	<Emotion name="Distress" oppositeEmotionName="Joy">
+		<Rule hasAgent="false" isPositiveEffect="true" isPositiveAttitude="false" dc="1,1"/>
+		<Rule hasAgent="false" isPositiveEffect="false" isPositiveAttitude="true" dc="1,1"/>
+	</Emotion>
+
+	<Emotion name="Fear" oppositeEmotionName="Hope">
+		<Rule hasAgent="false" isPositiveEffect="true" isPositiveAttitude="false" dc="0,1"/>
+		<Rule hasAgent="false" isPositiveEffect="false" isPositiveAttitude="true" dc="0,1"/>
+	</Emotion>
+
+	<Emotion name="Relief" oppositeEmotionName="Disappointment">
+		<Rule hasAgent="false" isPositiveEffect="true" isPositiveAttitude="false" dc="0,0"/>
+		<Rule hasAgent="false" isPositiveEffect="false" isPositiveAttitude="true" dc="0,0"/>
+	</Emotion>
+
+	<Emotion name="Pride" oppositeEmotionName="Shame">
+		<Rule hasAgent="true" isPositivePraise="true" dc="1,1" isPraisedAgent="true"/>
+	</Emotion>
+
+	<Emotion name="Admiration" oppositeEmotionName="Anger">
+		<Rule hasAgent="true" isPositivePraise="true" dc="1,1" isPraisedAgent="false"/>
+	</Emotion>
+
+	<Emotion name="Shame" oppositeEmotionName="Pride">
+		<Rule hasAgent="true" isPositivePraise="false" dc="1,1" isPraisedAgent="true"/>
+	</Emotion>
+
+	<Emotion name="Anger" oppositeEmotionName="Admiration">
+		<Rule hasAgent="true" isPositivePraise="false" dc="1,1" isPraisedAgent="false"/>
+	</Emotion>
+</Emotions>

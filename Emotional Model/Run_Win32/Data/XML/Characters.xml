@@ -1,0 +1,106 @@
+<Characters>
+	<Character name="predator">
+		<Glyph glyph='P'/>
+		<GlyphColor color="255, 0, 0"/>
+		<Stats str="10" dex="10" con="50" int="10" wis="10" cha="10"/>
+		<Faction faction="predator"/>
+		<Behavior>
+			<Attack/>
+			<Blame/>
+			<Daydream/>
+			<Follow/>
+			<Hide/>
+			<Mate/>
+			<FreakOut behaviorRange="5.0" speedChangePercentage="1.5"/>
+			<Recuperate/>
+			<ShowOff speedChangePercentage="0.5" mapRange="3,4"/>
+			<Sulk speedChangePercentage="0.5"/>
+			<Pursue sightRange="5"/>
+			<Flee skittishness="0.1" sightRange="5"/>
+			<Cry/>
+			<Smile/>
+			<Tantrum/>
+			<Sigh/>
+			<Gloat mapRange="2,3"/>
+			<Imitate/>
+			<Wander/>
+			<Eat/>
+		</Behavior>
+		<ActionAttitudes>
+			<ActionAttitude actionName="Attack" 		attitude="0.6"/>
+			<ActionAttitude actionName="IsHurting" 		attitude="-0.3"/>
+			<ActionAttitude actionName="IsFleeing" 		attitude="-0.6"/>
+			<ActionAttitude actionName="Follow" 		attitude="0.0"/>
+			<ActionAttitude actionName="Imitate" 		attitude="0.25"/>
+			<ActionAttitude actionName="IsFreakingOut" 	attitude="-0.8"/>
+			<ActionAttitude actionName="IsHiding" 		attitude="-0.5"/>
+			<ActionAttitude actionName="Mate" 			attitude="0.75"/>
+			<ActionAttitude actionName="IsRecuperating" attitude="-0.1"/>
+			<ActionAttitude actionName="IsShowingOff" 	attitude="0.4"/>
+			<ActionAttitude actionName="IsGloating" 	attitude="-0.4"/>
+			<ActionAttitude actionName="IsSulking" 		attitude="-0.4"/>
+			<ActionAttitude actionName="IsWandering" 	attitude="0.0"/>
+			<ActionAttitude actionName="IsCrying" 		attitude="-0.5"/>
+			<ActionAttitude actionName="IsSmiling"		attitude="0.3"/>
+			<ActionAttitude actionName="IsTantruming" 	attitude="-0.6"/>
+			<ActionAttitude actionName="IsSighing" 		attitude="0.0"/>
+			<ActionAttitude actionName="IsDaydreaming"	attitude="-0.15"/>
+			<ActionAttitude actionName="Blame" 			attitude="-0.4"/>
+			<ActionAttitude actionName="IsHungry"		attitude="-0.3"/>
+			<ActionAttitude actionName="IsEating"		attitude="0.3"/>
+		</ActionAttitudes>
+	</Character>
+
+	<Character name="prey">
+		<Glyph glyph='p'/>
+		<GlyphColor color="0, 255, 255"/>
+		<Stats str="10" dex="10" con="10" int="10" wis="10" cha="10"/>
+		<Faction faction="prey"/>
+		<Behavior>
+			<Attack/>
+			<Blame/>
+			<Daydream/>
+			<Follow/>
+			<Hide/>
+			<Mate/>
+			<FreakOut behaviorRange="5.0" speedChangePercentage = "1.5"/>
+			<Recuperate/>
+			<ShowOff speedChangePercentage = "0.5" mapRange = "3,4"/>
+			<Sulk speedChangePercentage = "0.5"/>
+			<Pursue sightRange="5"/>
+			<Flee skittishness="0.1" sightRange="5"/>
+			<Cry/>
+			<Smile/>
+			<Tantrum/>
+			<Sigh/>
+			<Gloat mapRange="2,3"/>
+			<Imitate/>
+			<Wander/>
+			<Eat/>
+		</Behavior>
+		<ActionAttitudes>
+				<ActionAttitude actionName="Attack" 		attitude="-0.7"/>
+				<ActionAttitude actionName="IsHurting" 		attitude="-0.7"/>
+				<ActionAttitude actionName="IsFleeing" 		attitude="0.6"/>
+				<ActionAttitude actionName="Follow" 		attitude="0.01"/>
+				<ActionAttitude actionName="Imitate" 		attitude="0.25"/>
+				<ActionAttitude actionName="IsFreakingOut" 	attitude="-0.1"/>
+				<ActionAttitude actionName="IsHiding" 		attitude="0.5"/>
+				<ActionAttitude actionName="Mate" 			attitude="0.75"/>
+				<ActionAttitude actionName="IsRecuperating" attitude="0.1"/>
+				<ActionAttitude actionName="IsShowingOff" 	attitude="-0.4"/>
+				<ActionAttitude actionName="IsShowingOff" 	attitude="-0.6"/>
+				<ActionAttitude actionName="IsGloating" 	attitude="-0.5"/>
+				<ActionAttitude actionName="IsSulking" 		attitude="-0.1"/>
+				<ActionAttitude actionName="IsWandering" 	attitude="0.0"/>
+				<ActionAttitude actionName="IsCrying" 		attitude="-0.3"/>
+				<ActionAttitude actionName="IsSmiling"		attitude="0.4"/>
+				<ActionAttitude actionName="IsTantruming" 	attitude="-0.6"/>
+				<ActionAttitude actionName="IsSighing" 		attitude="0.15"/>
+				<ActionAttitude actionName="IsDaydreaming"	attitude="0.15"/>
+				<ActionAttitude actionName="Blame" 			attitude="-0.6"/>
+				<ActionAttitude actionName="IsHungry"		attitude="-0.3"/>
+				<ActionAttitude actionName="IsEating"		attitude="0.3"/>
+			</ActionAttitudes>
+	</Character>
+</Characters>

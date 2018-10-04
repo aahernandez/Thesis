@@ -1,0 +1,28 @@
+<SocialRoles>
+	<SocialRole Name="Parent-Child" RoleMain="Parent" RoleSub="Child">
+		<DefaultRelations liking="1.0" dominance="0.8" solidarity="0.8" familiarity="1.0"/>
+		<OppositeRelations liking="1.0" dominance="0.0" solidarity="0.6" familiarity="1.0"/>
+	</SocialRole>
+
+	<SocialRole Name="Predator-Prey" RoleMain="Predator" RoleSub="Prey">
+		<DefaultRelations liking="0.2" dominance="0.9" solidarity="0.3" familiarity="0.6"/>
+		<OppositeRelations liking="0.2" dominance="0.1" solidarity="0.3" familiarity="0.6"/>
+	</SocialRole>
+
+	<SocialRole Name="Leader-Member" RoleMain="PackLeader" RoleSub="PackMember">
+		<DefaultRelations liking="0.5" dominance="0.8" solidarity="0.4" familiarity="0.5"/>
+		<OppositeRelations liking="0.4" dominance="0.4" solidarity="0.5" familiarity="0.7"/>
+	</SocialRole>
+
+	<SocialRole Name="PackMember" RoleMain="PackMember" RoleSub="PackMember">
+		<DefaultRelations liking="0.7" dominance="0.5" solidarity="0.6" familiarity="0.9"/>
+	</SocialRole>
+
+	<SocialRole Name="HerdMember" RoleMain="HerdMember" RoleSub="HerdMember">
+		<DefaultRelations liking="0.8" dominance="0.4" solidarity="0.7" familiarity="0.7"/>
+	</SocialRole>
+
+	<SocialRole Name="Sibling" RoleMain="Sibling" RoleSub="Sibling">
+		<DefaultRelations liking="0.5" dominance="0.5" solidarity="0.5" familiarity="0.9"/>
+	</SocialRole>
+</SocialRoles>

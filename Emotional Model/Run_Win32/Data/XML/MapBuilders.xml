@@ -1,0 +1,8 @@
+<MapBuilders>
+	<MapBuilder name = "TestBuilder">
+		<Generators>
+			<PerlinNoise name="GenericMap"/>
+			<CellularAutomata name="SandOnBeach"/>
+		</Generators>
+	</MapBuilder>
+</MapBuilders>

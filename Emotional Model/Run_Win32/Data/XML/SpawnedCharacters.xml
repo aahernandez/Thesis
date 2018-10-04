@@ -1,0 +1,113 @@
+<Characters>
+	<!-- <!-- Predators -->
+	<Character faction="predator" id="1">
+		<SocialRoles>
+			<Leader-Member sub="2,3"/>
+			<Sibling sub="2" />
+			<PackMember sub="2,3"/>
+			<Predator-Prey sub="4,5,6,7,8,9,10"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="predator" id="2">
+		<SocialRoles>
+			<Leader-Member main="1"/>
+			<Sibling main="1" />
+			<PackMember main="1,3"/>
+			<Parent-Child sub="3"/>
+			<Predator-Prey sub="4,5,6,7,8,9,10"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="predator" id="3">
+		<SocialRoles>
+			<Leader-Member main="1"/>
+			<PackMember main="1,2"/>
+			<Parent-Child main="2"/>
+			<Predator-Prey sub="4,5,6,7,8,9,10"/>
+		</SocialRoles>
+	</Character>
+
+	<!-- Prey -->
+	<Character faction="prey" id="4">
+		<SocialRoles>
+			<Parent-Child sub="5,6"/>
+			<Sibling sub="8,9" />
+			<HerdMember sub="5,6,7,8,9,10"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="5">
+		<SocialRoles>
+			<Parent-Child main="4" sub="7"/>
+			<Sibling sub="6" />
+			<HerdMember sub="4,6,7,8,9,10"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="6">
+		<SocialRoles>
+			<Parent-Child main="4"/>
+			<Sibling sub="5" />
+			<HerdMember sub="4,5,7,8,9,10"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="7">
+		<SocialRoles>
+			<Parent-Child main="5"/>
+			<HerdMember sub="4,5,6,8,9,10"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="8">
+		<SocialRoles>
+			<Sibling sub="1,9" />
+			<HerdMember sub="4,5,6,7,9,10"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="9">
+		<SocialRoles>
+			<Parent-Child sub="10"/>
+			<Sibling sub="1,8" />
+			<HerdMember sub="4,5,6,7,8,10"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="10">
+		<SocialRoles>
+			<Parent-Child main="9"/>
+			<HerdMember sub="4,5,6,7,8,9"/>
+			<Predator-Prey main="1,2,3"/>
+		</SocialRoles>
+	</Character>
+<!-- -->
+
+	<!-- Extreme Example -->
+	<!-- Predator ->
+	<Character faction="predator" id="1">
+		<SocialRoles>
+			<Predator-Prey sub="2,3"/>
+		</SocialRoles>
+	</Character>
+
+	<!-- Prey ->
+	<Character faction="prey" id="2">
+		<SocialRoles>
+			<Predator-Prey main="1"/>
+			<HerdMember sub="3"/>
+		</SocialRoles>
+	</Character>
+	<Character faction="prey" id="3">
+		<SocialRoles>
+			<Predator-Prey main="1"/>
+			<HerdMember sub="2"/>
+		</SocialRoles>
+	</Character>
+<!-- --> 
+
+	<!-- Prey -->
+	<!-- <Character faction="prey" id="2">
+		<SocialRoles>
+		</SocialRoles>
+	</Character> -->
+</Characters>

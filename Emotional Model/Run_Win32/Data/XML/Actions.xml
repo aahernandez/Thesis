@@ -1,0 +1,44 @@
+<Actions>
+	<Action name="Attack" effect="-0.6">
+	</Action>
+	<Action name="IsHurting" effect="-0.3">
+	</Action>
+	<Action name="IsCrying" effect="-0.4">
+	</Action>
+	<Action name="IsFleeing" effect="0.3">
+	</Action>
+	<Action name="Follow" effect="0.1">
+	</Action>
+	<Action name="Imitate" effect="0.25">
+	</Action>
+	<Action name="IsFreakingOut" effect="-0.3">
+	</Action>
+	<Action name="IsHiding" effect="-0.5">
+	</Action>
+	<Action name="Mate" effect="0.9">
+	</Action>
+	<Action name="IsRecuperating" effect="0.1">
+	</Action>
+	<Action name="IsShowingOff" effect="0.2">
+	</Action>
+	<Action name="IsSulking" effect="-0.2">
+	</Action>
+	<Action name="IsWandering" effect="0.0">
+	</Action>
+	<Action name="IsSmiling" effect="0.4">
+	</Action>
+	<Action name="IsTantruming" effect="-0.5">
+	</Action>
+	<Action name="IsSighing" effect="0.1">
+	</Action>
+	<Action name="IsGloating" effect="-0.2">
+	</Action>
+	<Action name="IsDaydreaming" effect="0.0">
+	</Action>
+	<Action name="IsHungry" effect="-0.3">
+	</Action>
+	<Action name="IsEating" effect="0.3">
+	</Action>
+	<Action name="Blame" effect="-0.3">
+	</Action>
+</Actions>
