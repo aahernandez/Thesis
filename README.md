@@ -9,7 +9,7 @@ A model for NPC emotions using architectures from psychology. Emotional states o
  &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;information about the NPC.  
 
 ## Run
-An executable is provided in the [Run_Win32](Emotional_Model/Run_Win32) folder.
+An executable is provided in the [Run_Win32](Emotional Model/Run_Win32) folder.
 
 ## Build
 The project was built using Visual Studio 17. If you would like to build it yourself, you can open the visual studio [solution](Emotional_Model/EmotionModel.sln) to do so. You must also have a copy of my [engine](https://github.com/aahernandez/Engine) to build it, and the engine and emotional model project must both have the same parent folder like so:
